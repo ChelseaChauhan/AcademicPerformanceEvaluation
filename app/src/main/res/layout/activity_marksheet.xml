@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/idemail"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Student Email"
+                android:paddingLeft="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/idsem"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:entries="@array/semesters" />
+
+                <EditText
+                    android:id="@+id/idenroll"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:hint="Enrollment"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="363dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Select subjects"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"
+                />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/subject1"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Subject-1"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55" />
+
+                <EditText
+                    android:id="@+id/marks1"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/100"
+                    android:padding="10dp"
+                    android:inputType="number"
+                    android:textColorHint="#FF6E55" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/subject2"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Subject-2"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55" />
+
+                <EditText
+                    android:id="@+id/marks2"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/100"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/subject3"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Subject-3"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55" />
+
+                <EditText
+                    android:id="@+id/marks3"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/100"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/subject4"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Subject-4"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55" />
+
+                <EditText
+                    android:id="@+id/marks4"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/100"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/subject5"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Subject-5"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55" />
+
+                <EditText
+                    android:id="@+id/marks5"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="44dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/100"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Practical Marks"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/practical"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="70dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Marks/50"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Attendance Marks"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/attendance"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:hint="Attd/50"
+                    android:padding="10dp"
+                    android:textColorHint="#FF6E55"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="363dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Calculate %"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Percentage"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/percent"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="103dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#FF6E55"
+                    android:inputType="number"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Grade"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/grade"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="145dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/edittextstyle"
+                    android:backgroundTint="#54FFAC9E"
+                    android:ems="10"
+                    android:padding="10dp"
+                    android:textAlignment="center"
+                    android:textColor="#FF6E55" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="363dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/edittextstyle"
+                android:backgroundTint="@color/buttoncolor2"
+                android:text="Submit"
+                android:textColor="#FFFF"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"/>
+
+          <!--  <Button
+                android:id="@+id/btnView"
+                android:layout_width="365dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="20dp"
+                android:text="VIEW ALL RECORDS?"
+                android:textColor="#FFFF"
+                android:backgroundTint="@color/colorPrimary"
+                android:background="@drawable/edittextstyle"
+                android:textSize="18sp"
+                android:fontFamily="@font/roboto_bold"/> -->
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

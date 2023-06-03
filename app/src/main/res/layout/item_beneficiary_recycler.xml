@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginBottom="10dp"
+    card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewEnrollment"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Enrollment"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/roboto_bold"/>
+
+                        <TextView
+                            android:id="@+id/textViewSemester"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Semester"
+                            android:textAlignment="viewEnd"
+                            android:textColor="#000"
+                            android:textSize="20sp"
+                            android:fontFamily="@font/roboto_bold"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Email"
+                            android:textColor="#FFFFFF"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:background="@drawable/marksblue"/>
+
+                        <TextView
+                            android:id="@+id/textViewEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Email"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSubject1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="subject 1"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/markspink"/>
+                        <TextView
+                            android:id="@+id/textViewSubject2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="subject 2"
+                            android:textAllCaps="true"
+                            android:textColor="#FFFFFF"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/markspink"/>
+                        <TextView
+                            android:id="@+id/textViewSubject3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textAlignment="center"
+                            android:text="subject 3"
+                            android:textAllCaps="true"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/markspink"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                        <TextView
+                            android:id="@+id/textViewMarks1"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Marks 1"
+                            android:textColor="#000"
+                            android:background="@drawable/marksgrey"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/textViewpf1"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+
+
+                        <TextView
+                            android:id="@+id/textViewMarks2"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Marks 2"
+                            android:textColor="#000"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/marksgrey"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textViewpf2"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textViewMarks3"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Marks 3"
+                            android:textColor="#000"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/marksgrey"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textViewpf3"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewSubject4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="subject 4"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/markspink"/>
+
+                        <TextView
+                            android:id="@+id/textViewSubject5"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="subject 5"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:textColor="#FFFFFF"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/markspink"/>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Practical"
+                            android:textAllCaps="true"
+                            android:textColor="#FFFFFF"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/markspink"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/textViewMarks4"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Marks 4"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+                        <TextView
+                            android:id="@+id/textViewpf4"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textViewMarks5"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:text="Marks 5"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+                        <TextView
+                            android:id="@+id/textViewpf5"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+                        <TextView
+                            android:id="@+id/textViewPract"
+                            android:layout_width="74dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:text="Practical"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+                        <TextView
+                            android:id="@+id/textViewpf6"
+                            android:layout_width="31dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text=" "
+                            android:textColor="#000"
+                            android:background="@drawable/passfail"
+                            android:textAlignment="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="120dp"
+                            android:text="Attendance"
+                            android:textColor="#FFFFFF"
+                            android:textAllCaps="true"
+                            android:textAlignment="center"
+                            android:background="@drawable/markspink"/>
+
+                        <TextView
+                            android:id="@+id/textViewAttd"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="120dp"
+                            android:text="Attendance"
+                            android:textAlignment="center"
+                            android:textColor="#000"
+                            android:background="@drawable/marksgrey"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Percentage"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/marksblue"/>
+
+                        <TextView
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Grade"
+                            android:layout_marginStart="30dp"
+                            android:textAlignment="center"
+                            android:textAllCaps="true"
+                            android:textColor="#FFFFFF"
+                            android:background="@drawable/marksblue"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textViewPerc"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Percentage"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+
+
+                        <TextView
+                            android:id="@+id/textViewGrad"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginStart="30dp"
+                            android:text="Grade"
+                            android:textColor="#000"
+                            android:textAlignment="center"
+                            android:background="@drawable/marksgrey"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+</androidx.cardview.widget.CardView>

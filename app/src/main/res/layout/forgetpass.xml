@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forgetbg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Forgot password?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/forgot_password_msg"
+        android:gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/edittextstyle"
+        android:backgroundTint="#F5F5F5"
+        android:drawableRight="@drawable/email_24"
+        android:ems="10"
+        android:hint="Registered Email"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/reset_pass"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Reset Password"
+        android:textSize="18dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/buttoncolor2"
+        android:background="@drawable/roundbutton"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="550dp" />
+
+</RelativeLayout>

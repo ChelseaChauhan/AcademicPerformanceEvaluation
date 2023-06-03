@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">APES</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_email2">Please enter this value</string>
+    <string name="error_message_marks">Enter Valid Marks</string>
+    <string name="error_message_subject">Enter Subject Name</string>
+    <string name="error_message_other">Enter the value</string>
+    <string name="error_message_other2">Calculate the value</string>
+    <string name="student_act">Login here with your provided credentials!!</string>
+    <string name="search">Search</string>
+    <string-array name="semesters">
+        <item>Semester</item>
+        <item>Semester 1</item>
+        <item>Semester 2</item>
+        <item>Semester 3</item>
+        <item>Semester 4</item>
+        <item>Semester 5</item>
+        <item>Semester 6</item>
+    </string-array>
+
+    <string-array name="Subjects">
+        <item>Accounts</item>
+        <item>Android Dev.</item>
+        <item>Basic Maths</item>
+        <item>C</item>
+        <item>CAL</item>
+        <item>C++</item>
+        <item>Chinese</item>
+        <item>Comp. Maths</item>
+        <item>Cybersecurity</item>
+        <item>DBMS</item>
+        <item>Digital Elec.</item>
+        <item>Digital Mark.</item>
+        <item>DSA</item>
+        <item>ERP</item>
+        <item>French</item>
+        <item>German</item>
+        <item>HTML/CSS</item>
+        <item>Image Process.</item>
+        <item>IOT</item>
+        <item>Japanese</item>
+        <item>Java</item>
+        <item>Mobile Comp.</item>
+        <item>Networking</item>
+        <item>Network Sec.</item>
+        <item>OS</item>
+        <item>PHP/MySql</item>
+        <item>Python</item>
+        <item>Sanskrit</item>
+        <item>Software Eng.</item>
+        <item>Spanish</item>
+        <item>Unix</item>
+
+    </string-array>
+
+
+    <string-array name="Sub">
+        <item>Accounts</item>
+        <item>Android Dev.</item>
+        <item>Basic Maths</item>
+        <item>C</item>
+        <item>CAL</item>
+    </string-array>
+</resources>

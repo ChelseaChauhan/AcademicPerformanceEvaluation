@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D9D9D9"
+        android:backgroundTintMode="screen">
+
+
+        <!--text view for student name-->
+        <ImageView
+            android:id="@+id/idStudentImg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:layout_margin="13dp" />
+
+        <TextView
+            android:id="@+id/idStudentName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/idStudentImg"
+            android:padding="4dp"
+            android:text="Student Name"
+            android:textColor="#FFFF"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp" />
+
+        <!--text view for student enrollment-->
+        <TextView
+            android:id="@+id/idStudentEnroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idStudentName"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/idStudentImg"
+            android:padding="4dp"
+            android:text="Enrollment"
+            android:textColor="#FFFF"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/idStudentPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idStudentEnroll"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/idStudentImg"
+            android:padding="4dp"
+            android:text="Phone number"
+            android:textColor="#FFFF"
+            android:textSize="15sp" />
+
+        <!--text view for student enrollment-->
+        <TextView
+            android:id="@+id/idStudentEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idStudentPhone"
+            android:layout_marginStart="30dp"
+            android:layout_toEndOf="@id/idStudentImg"
+            android:padding="4dp"
+            android:text="Email"
+            android:textColor="#FFFF"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

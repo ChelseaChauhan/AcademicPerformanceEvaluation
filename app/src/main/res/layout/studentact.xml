@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/studactbg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/student_act"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_bold"/>
+
+        <EditText
+            android:id="@+id/idloginEnroll"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableRight="@drawable/person_24"
+            android:backgroundTint="#C7C7C7"
+            android:ems="10"
+            android:hint="Enrollment"
+            android:textColorHint="@color/white"
+            android:padding="10dp" />
+
+       <EditText
+            android:id="@+id/idloginUsername"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:drawableRight="@drawable/email_24"
+            android:backgroundTint="#C7C7C7"
+            android:ems="10"
+            android:hint="Username"
+            android:textColorHint="@color/white"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/idloginPassword"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:drawableRight="@drawable/lock_24"
+            android:padding="10dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittextstyle"
+            android:backgroundTint="#C7C7C7"
+            />
+
+        <Button
+            android:id="@+id/idlogin"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:text="Sign In"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FFC728"
+            android:background="@drawable/roundbutton"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

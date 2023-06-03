@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyDashone"
+    android:background="@drawable/facultydashone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/regStudent"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#73D9D9D9"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:text="Add \nNew student"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"/>
+
+        <Button
+            android:id="@+id/addRecord"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#73D9D9D9"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:text="Add \nNew record"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"/>
+
+        <Button
+            android:id="@+id/viewStudent"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#73D9D9D9"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:text="View \nAll students"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"/>
+
+        <Button
+            android:id="@+id/viewRecord"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/roundbutton"
+            android:backgroundTint="#73D9D9D9"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:text="View \nAll records"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_bold"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

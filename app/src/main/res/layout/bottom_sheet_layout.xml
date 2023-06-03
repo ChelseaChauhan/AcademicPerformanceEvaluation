@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/idRLBSheet"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/black_shade_1"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/idStudentEnroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idStudentName"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/idStudentImg"
+        android:padding="3dp"
+        android:text="Enrollment Number"
+        android:textColor="@color/white" />
+
+    <!--text view for displaying course name-->
+    <TextView
+        android:id="@+id/idStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:padding="4dp"
+        android:text="Student Name"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <!--image view for displaying course image-->
+    <ImageView
+        android:id="@+id/idStudentImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/idStudentName"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="5dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <!--text view for displaying course description-->
+    <TextView
+        android:id="@+id/idStudentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idStudentEnroll"
+        android:layout_marginTop="10dp"
+        android:layout_margin="4dp"
+        android:layout_toEndOf="@id/idStudentImg"
+        android:padding="3dp"
+        android:text="Email"
+        android:textColor="@color/white" />
+
+    <!--text view for displaying course best suited for-->
+    <TextView
+        android:id="@+id/idStudentPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idStudentEmail"
+        android:layout_margin="4dp"
+        android:layout_toRightOf="@id/idStudentImg"
+        android:padding="3dp"
+        android:text="Phone"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/idBtnEditStud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:text="Edit Details"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/buttoncolor2"/>
+
+  <!--  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/idBtnEnterStud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Enter Details"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/buttoncolor2"/>
+
+        <Button
+            android:id="@+id/idBtnEditStud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:text="Edit Details"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/buttoncolor2"/>
+
+    </LinearLayout>  -->
+
+
+</RelativeLayout>

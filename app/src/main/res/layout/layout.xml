@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="HELLO"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="280dp"
+        app:srcCompat="@drawable/read" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="480dp">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:text="Admin"
+        android:textSize="20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FEDAB6"
+        android:background="@drawable/roundbutton"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Faculty"
+        android:textSize="20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="@color/buttoncolor"
+        android:background="@drawable/roundbutton"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/roboto_bold"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/buttoncolor2"
+        android:background="@drawable/roundbutton"/>
+</LinearLayout>
+</RelativeLayout>
