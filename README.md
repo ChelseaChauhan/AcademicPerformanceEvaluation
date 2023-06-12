@@ -31,7 +31,7 @@ Students' academic performance is evaluated based on their academic performance 
 ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/f9beb1a4-ff7e-4715-9048-45044604d5f8) ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/4c14af05-631c-49c5-83ac-e35211b57f7e) ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/b30f4c7c-3b33-42ac-b853-a13397c17d1e)
 
 ### STUDENT MODULE
-![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/3bb49d52-168f-4b4a-bf99-2e1689411423) ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/89f1dff4-efcb-48d6-8b00-43e7f89621f6) 
+![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/3bb49d52-168f-4b4a-bf99-2e1689411423)
 
 ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/dcc184a4-52f6-4986-887d-409a651674a8) ![image](https://github.com/ChelseaChauhan/AcademicPerformanceEvaluation/assets/122624945/a2cc8888-7ec8-448f-ad11-a0838f30e60a)
 
